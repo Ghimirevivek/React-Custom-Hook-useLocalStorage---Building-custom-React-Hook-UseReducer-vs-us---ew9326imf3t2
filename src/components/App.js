@@ -10,7 +10,6 @@ const App = () => {
     e.preventDefault()
     const text = inputRef.current.value
     setState(text)
-    localStorage.setItem('key', text)
   }
 
   return (
